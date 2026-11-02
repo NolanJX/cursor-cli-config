@@ -1,0 +1,14 @@
+{
+  "display": {
+    "showThinkingBlocks": true
+  },
+  "permissions": {
+    "allow": [
+      "Shell(ls)"
+    ],
+    "deny": [
+      "Read(**/.env*)",
+      "Write(**/.env*)"
+    ]
+  }
+}
