@@ -19,6 +19,9 @@
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 
+	"containerEnv": {
+		"TZ": "${localEnv:TZ:UTC}"
+	},
 	"remoteEnv": {
 		"CURSOR_API_KEY": ""
 	},
