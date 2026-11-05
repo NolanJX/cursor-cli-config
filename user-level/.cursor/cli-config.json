@@ -4,7 +4,13 @@
   },
   "permissions": {
     "allow": [
-      "Shell(ls)"
+      "Shell(echo)",
+      "Shell(git diff)",
+      "Shell(git status)",
+      "Shell(head)",
+      "Shell(ls)",
+      "Shell(pwd)",
+      "Shell(rg)"
     ],
     "deny": [
       "Read(**/.env*)",
